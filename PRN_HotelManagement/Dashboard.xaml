@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="PRN_HotelManagement.Dashboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PRN_HotelManagement" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <materialDesign:Card Width="200">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Image -->
+                    <Viewbox Width="210" Height="210">
+                        <materialDesign:PackIcon Kind="AccountMultiple" />
+                    </Viewbox>
+                    <!-- StackPanel with TextBlocks -->
+                    <StackPanel 
+                    Grid.Row="1"
+                    Margin="8,24,8,0">
+                        <TextBlock FontWeight="Bold" Text="Customer" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="totalCustomersTextBlock" 
+                        FontWeight="Bold"
+                        TextWrapping="Wrap" />
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="customerHasMostBooking" 
+                        FontWeight="Bold"
+                        TextWrapping="Wrap" />
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Column="1">
+            <materialDesign:Card Width="200">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Image -->
+                    <Viewbox Width="210" Height="210">
+                        <materialDesign:PackIcon Kind="Cash" />
+                    </Viewbox>
+                    <!-- StackPanel with TextBlocks -->
+                    <StackPanel 
+                Grid.Row="1"
+                Margin="8,24,8,0">
+                        <TextBlock FontWeight="Bold" Text="Revenue" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="totalRevenueThisMonth" 
+                        FontWeight="Bold"
+                       TextWrapping="Wrap" />
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="totalBookingThisMonth" 
+                        FontWeight="Bold"
+                       TextWrapping="Wrap" />
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Column="2">
+            <materialDesign:Card Width="200">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Image -->
+                    <Viewbox Width="210" Height="210">
+                        <materialDesign:PackIcon Kind="Home" />
+                    </Viewbox>
+                    <!-- StackPanel with TextBlocks -->
+                    <StackPanel 
+                Grid.Row="1"
+                Margin="8,24,8,0">
+                        <TextBlock FontWeight="Bold" Text="Room" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="totalRoom" 
+                        FontWeight="Bold"
+                       TextWrapping="Wrap" />
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="min" 
+                        FontWeight="Bold"
+                       TextWrapping="Wrap" />
+                        <TextBlock VerticalAlignment="Center"
+                        x:Name="max" 
+                        FontWeight="Bold"
+                       TextWrapping="Wrap" />
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+        </Grid>
+    </Grid>
+</UserControl>

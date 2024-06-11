@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="PRN_HotelManagement.Customers"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PRN_HotelManagement"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0000FF" Offset="0" />
+                <!-- Blue -->
+                <GradientStop Color="#7B68EE" Offset="0.25" />
+                <!-- Medium Slate Blue -->
+                <GradientStop Color="#DA70D6" Offset="0.75" />
+                <!-- Orchid -->
+                <GradientStop Color="#FF69B4" Offset="1" />
+                <!-- Pink -->
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="label" 
+       Content="Customer management" 
+       Grid.Column="1" 
+       Grid.Row="0"
+       FontSize="36" 
+       Grid.ColumnSpan="3" 
+       HorizontalAlignment="Left" 
+       Width="466" />
+
+        <Label x:Name="label2" 
+       Margin="2,2,0,2" 
+       Grid.Column="0" 
+       Grid.Row="1" 
+       Content="Customer Name" />
+
+        <TextBox x:Name="txtCustomerName"
+            Height="30"
+         Grid.Column="1"
+         Text="" 
+         TextWrapping="Wrap" 
+         Background="White" Margin="0,2,0,24" Grid.Row="1" />
+
+        <Label x:Name="label8" 
+       Margin="2,2,10,2" 
+       Content="Telephone" 
+       Grid.Column="0" 
+       Grid.Row="2" />
+
+        <TextBox x:Name="txtPhone"
+        Height="30"
+        Margin="0,55,0,28"
+         Grid.Column="1" 
+         Grid.Row="1" 
+         Text=""
+         TextWrapping="Wrap"
+         Background="White" Grid.RowSpan="2" />
+
+        <Label x:Name="label3" 
+       Margin="2,0,10,4" 
+       Content="Email" 
+       Grid.Column="2"
+       Grid.Row="1" />
+
+        <TextBox x:Name="txtEmail"
+        Height="30"
+        Margin="58,56,117,26"
+         Grid.Column="2"
+         Text="" 
+         TextWrapping="Wrap" 
+         Background="White" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+
+        <Label x:Name="label4" 
+       Margin="2,2,10,2" 
+       Content="Birthday" 
+       Grid.Column="2"
+       Grid.Row="2" />
+
+        <TextBox x:Name="txtBirthday"
+        Height="30"
+        Margin="58,56,117,27" 
+        Grid.Row="1"
+        Text="" 
+        TextWrapping="Wrap" 
+        Background="White" 
+        Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+
+        <DataGrid x:Name="dgData" 
+          Grid.Row="2" 
+          Foreground="Black"
+          HorizontalAlignment="Left"
+          VerticalAlignment="Top"
+          AutoGenerateColumns="True"
+          SelectionChanged="dgData_SelectionChanged" 
+          ItemsSource="{Binding CustomersList}" 
+          Grid.RowSpan="5" Height="198" Width="592" 
+          Margin="20,54,0,0" Grid.ColumnSpan="4"
+          IsReadOnly="True"/>
+
+        <Button x:Name="btnCreate" 
+            Content="Create" 
+            Grid.Row="6" 
+            Grid.RowSpan="2" 
+            Width="100" 
+            Background="#FF0099FF"
+            BorderBrush="White" 
+            Foreground="White" 
+            HorizontalAlignment="Center" 
+            Click="btnCreate_Click" Margin="0,44,0,28"/>
+
+
+        <Button x:Name="btnUpdate" 
+        Content="Update" 
+        Grid.Column="1"
+        HorizontalAlignment="Center" 
+        Grid.Row="6" 
+        Width="100"
+        Background="#FF1B7140" 
+        Foreground="White" 
+        Grid.RowSpan="2"
+        RenderTransformOrigin="0.37,0.2"
+        Click="btnUpdate_Click" Margin="0,44,0,28"/>
+
+        <Button x:Name="btnDelete" 
+        Content="Delete" 
+        Grid.Column="2" 
+        HorizontalAlignment="Center"
+        Grid.Row="6" 
+        Grid.RowSpan="2" 
+        Width="100" 
+        Foreground="White"
+        Background="#FFA2AA3D" 
+        Click="btnDelete_Click" Margin="0,44,0,28"/>
+    </Grid>
+</UserControl>

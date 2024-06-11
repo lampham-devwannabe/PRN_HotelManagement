@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|c:\\workspace\\dotnet\\prn_hotelmanagement\\prn_hotelmanagement\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|solutionrelative:prn_hotelmanagement\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|c:\\workspace\\dotnet\\prn_hotelmanagement\\prn_hotelmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|solutionrelative:prn_hotelmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|c:\\workspace\\dotnet\\prn_hotelmanagement\\prn_hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|solutionrelative:prn_hotelmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|c:\\workspace\\dotnet\\prn_hotelmanagement\\prn_hotelmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A1ED3-EC1C-4FF6-881A-C3992489CD03}|PRN_HotelManagement\\PRN_HotelManagement.csproj|solutionrelative:prn_hotelmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\UserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PRN_HotelManagement\\UserWindow.xaml.cs",
+              "ToolTip": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\UserWindow.xaml.cs",
+              "RelativeToolTip": "PRN_HotelManagement\\UserWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:58:31.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "PRN_HotelManagement\\UserWindow.xaml",
+              "ToolTip": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\UserWindow.xaml",
+              "RelativeToolTip": "PRN_HotelManagement\\UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T02:47:12.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PRN_HotelManagement\\MainWindow.xaml",
+              "ToolTip": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\MainWindow.xaml",
+              "RelativeToolTip": "PRN_HotelManagement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T02:46:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PRN_HotelManagement\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Workspace\\dotnet\\PRN_HotelManagement\\PRN_HotelManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PRN_HotelManagement\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:42:57.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
